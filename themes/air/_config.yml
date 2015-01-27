@@ -1,0 +1,42 @@
+menu:
+  #Home: /
+  #Achieves: /archives
+  About: /about
+  404: /404.html
+  RSS: /rss.xml
+
+
+widgets:
+- search
+- url
+- tag
+- category
+- recent_posts
+
+excerpt_link: Read More
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: true
+  pubid:
+  weibo: true
+  linkedin: false
+  google: true
+  facebook: false
+  twitter: false
+
+copyright:
+  enable: true
+  claim: 版权声明：自由转载-非商用-无演绎-保持署名 @ evilddog-2014
+  show_link: true
+
+fancybox: true
+
+google_analytics: UA-56327794-1
+disqus_shortname: evilddog
+analytics_site_name: evilddog
+rss: /rss.xml

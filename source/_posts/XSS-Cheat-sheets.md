@@ -7,7 +7,7 @@ XSS测试Shellcode和JS events handle
 <!--more-->
 ###常用测试代码
 
-``` 
+```
 <script>\u0061\u006C\u0065\u0072\u0074(3)</script>
 <script>"jother/JSfuck/jjencode/aaencode"</script>
 /*    
@@ -74,7 +74,7 @@ XSS测试Shellcode和JS events handle
 
 ###Javascript Event Handlers
 
-```
+```Javascript
 FSCommand() (attacker can use this when executed from within an embedded Flash object)
 onAbort() (when user aborts the loading of an image)
 onActivate() (when object is set as the active element)

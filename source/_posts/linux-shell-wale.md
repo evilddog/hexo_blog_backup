@@ -35,4 +35,7 @@ echo -n "evilddog" | md5sum | awk '{print $1}'
 update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.7.0_71/bin/java 700 
 update-alternatives --config java
 
+#使用adb显示E/MainActivity有关调试信息
+adb logcat -v time|sed -n '/E\/MainActivity/p'
+
 ```

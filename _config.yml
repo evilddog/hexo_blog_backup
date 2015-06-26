@@ -3,16 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: evilddog's blog
-subtitle: 在一群出色的人中间,误以为自己也是其中一员,然后忘了努力
-description: be quieter
-author: evilddog
-email: root.evilddog@gmail.ocm
-language: zh-CN
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://evilddog.github.io/child' and root as '/child/'
-url: http://evilddog.github.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: /tags
